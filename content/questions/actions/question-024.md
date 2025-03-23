@@ -1,10 +1,10 @@
 ---
-question: "What are `activity types` of an event used for ?"
+question: "イベントの`activity types`は何に使用されますか？"
 archetype: "questions"
 title: "Question 024"
 ---
 
 > https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#about-events-that-trigger-workflows
-1. [x] Limiting workflow runs to specific activity types using the `types` filter
-1. [ ] Checking if the activity comes from an user or a bot
-1. [ ] Reacting to new activity on a repository (e.g new contributor)
+1. [x] ワークフローの実行を特定のアクティビティタイプに制限するために`types`フィルターを使用する
+1. [ ] アクティビティがユーザーまたはボットからのものであるかを確認する
+1. [ ] リポジトリでの新しいアクティビティ（例：新しいコントリビューター）に反応する

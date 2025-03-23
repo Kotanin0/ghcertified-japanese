@@ -1,5 +1,5 @@
 ---
-question: "How can you skip the following workflow run when you commit or create a PR?"
+question: "コミットまたはプルリクエストを作成する際に、次のワークフローの実行をスキップするにはどうすればよいですか？"
 archetype: "questions"
 title: "Question 118"
 ---
@@ -17,7 +17,7 @@ jobs:
 
 >https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs
 
-1. [x] By including any one of the following keywords in the commit message or in the title of the pull-request
+1. [x] コミットメッセージまたはプルリクエストのタイトルに次のいずれかのキーワードを含める
 ```yaml
 [skip ci]
 [ci skip]
@@ -26,5 +26,5 @@ jobs:
 [actions skip]
 ```
 
-1. [ ] Provide `SKIP_WORKFLOW` in the commit message
-1. [ ] The above workflow will run in every event of push or pull request in every case
+1. [ ] コミットメッセージに`SKIP_WORKFLOW`を指定する
+1. [ ] 上記のワークフローは、プッシュまたはプルリクエストのすべてのイベントで常に実行される

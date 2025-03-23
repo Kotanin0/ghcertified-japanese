@@ -1,5 +1,5 @@
 ---
-question: "Which context holds information about the event that triggered a workflow run?"
+question: "ワークフロー実行をトリガーしたイベントに関する情報を保持するコンテキストはどれですか？"
 archetype: "questions"
 title: "Question 102"
 ---

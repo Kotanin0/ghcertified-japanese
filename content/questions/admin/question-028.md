@@ -1,11 +1,11 @@
 ---
-question: "Which of the following is a management option exclusive to GitHub Enterprise Cloud?"
+question: "次のうち、GitHub Enterprise Cloudに特有の管理オプションはどれですか？"
 archetype: "questions"
 title: "Question 028"
 ---
 
 > https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-enterprise-cloud
-1. [x] Using Enterprise Managed Users to create and manage user accounts through your IdP
-1. [ ] Allowing users to create and manage their own personal accounts without restrictions
-1. [ ] Forcing all users to adopt a uniform coding standard
-1. [ ] Requiring all code to be reviewed by GitHub before being published
+1. [x] Enterprise Managed Usersを使用してIdPを通じてユーザーアカウントを作成および管理する
+1. [ ] ユーザーが制限なく個人アカウントを作成および管理できるようにする
+1. [ ] すべてのユーザーに統一されたコーディング標準を採用させる
+1. [ ] コードが公開される前にGitHubによるレビューを必須とする

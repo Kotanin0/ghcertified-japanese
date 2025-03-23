@@ -1,11 +1,11 @@
 ---
-question: "What is GitHub Enterprise Server primarily designed for?"
+question: "GitHub Enterprise Serverは主に何のために設計されていますか？"
 archetype: "questions"
 title: "Question 030"
 ---
 
 > https://docs.github.com/en/enterprise-server@latest/admin/overview/about-github-enterprise-server
-1. [x] A self-hosted platform for software development within your enterprise
-1. [ ] A cloud-based software development platform for open-source projects
-1. [ ] A platform for individual developers to host personal projects
-1. [ ] A service for deploying and managing containerized applications
+1. [x] エンタープライズ内でのソフトウェア開発のためのセルフホスト型プラットフォーム
+1. [ ] オープンソースプロジェクトのためのクラウドベースのソフトウェア開発プラットフォーム
+1. [ ] 個人開発者が個人プロジェクトをホストするためのプラットフォーム
+1. [ ] コンテナ化されたアプリケーションをデプロイおよび管理するためのサービス

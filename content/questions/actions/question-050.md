@@ -1,18 +1,17 @@
 ---
-question: "Secrets and configuration variables can be scoped to: (Select three.)"
+question: "シークレットと構成変数はどの範囲にスコープできますか？（3 つ選択してください。）"
 archetype: "questions"
 title: "Question 050"
 ---
 
-
 > https://docs.github.com/en/actions/using-workflows/sharing-workflows-secrets-and-runners-with-your-organization#sharing-secrets-and-variables-within-an-organization
-- [x] The entire organization, or selected repositories in an organization
-- [x] A single repository
-- [x] An environment in a repository
-- [ ] An environment shared across multiple repositories
-> Environments cannot be shared across repositories
-- [ ] Multiple repositories that do not share an organization/enterprise
-- [ ] A specific workflow in a repository
-> Environment variables can be scoped to a workflow, configuration variables cannot
-- [ ] A specific job in a workflow
-> Environment variables can be scoped to a workflow, configuration variables cannot
+- [x] 組織全体、または組織内の選択されたリポジトリ
+- [x] 単一のリポジトリ
+- [x] リポジトリ内の環境
+- [ ] 複数のリポジトリで共有される環境
+> 環境はリポジトリ間で共有できません
+- [ ] 組織/エンタープライズを共有しない複数のリポジトリ
+- [ ] リポジトリ内の特定のワークフロー
+> 環境変数はワークフローにスコープできますが、構成変数はできません
+- [ ] ワークフロー内の特定のジョブ
+> 環境変数はワークフローにスコープできますが、構成変数はできません

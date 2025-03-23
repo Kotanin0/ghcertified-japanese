@@ -1,11 +1,11 @@
 ---
-question: "How does the `actions/cache` action in GitHub Actions handle a cache miss?"
+question: "GitHub Actions の `actions/cache` アクションはキャッシュミスをどのように処理しますか？"
 archetype: "questions"
 title: "Question 097"
 ---
 
 > https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#managing-caches
-1. [ ] by requiring manual intervention to create a new cache
-1. [ ] by searching for a cache in other repositories
-1. [x] by automatically creating a new cache if the job is completed successfully
-1. [ ] by terminating the workflow if a cache miss occurs
+1. [ ] 新しいキャッシュを作成するために手動で介入する必要があります
+1. [ ] 他のリポジトリでキャッシュを検索します
+1. [x] ジョブが正常に完了した場合に新しいキャッシュを自動的に作成します
+1. [ ] キャッシュミスが発生した場合にワークフローを終了します

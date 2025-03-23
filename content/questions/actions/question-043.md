@@ -1,12 +1,12 @@
 ---
-question: "If a workflow runs on a `feature-a` branch, can it restore `caches` created in the default `main` branch?"
+question: "ワークフローが `feature-a` ブランチで実行される場合、デフォルトの `main` ブランチで作成された `caches` を復元できますか？"
 archetype: "questions"
 title: "Question 043"
 ---
 
 
 > https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#restrictions-for-accessing-a-cache
-1. [x] Yes, all branches can restore caches created on the default branch
-1. [ ] Yes, all caches can be accessed by workflows on any branch within the same repository
-1. [ ] No, caches can only be restored from the same branch
-1. [ ] Yes but only if no files were changed on `feature-a` branch
+1. [x] はい、すべてのブランチはデフォルトブランチで作成されたキャッシュを復元できます
+1. [ ] はい、すべてのキャッシュは同じリポジトリ内の任意のブランチのワークフローでアクセスできます
+1. [ ] いいえ、キャッシュは同じブランチからのみ復元できます
+1. [ ] はい、ただし `feature-a` ブランチでファイルが変更されていない場合のみです

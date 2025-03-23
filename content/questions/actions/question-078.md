@@ -1,12 +1,12 @@
 ---
 archetype: "questions"
 title: "Question 078"
-question: "Which of the following is a correct statement about GitHub Workflows and Actions?"
+question: "GitHub Workflows と Actions について正しい記述はどれですか？"
 ---
 
 
 > https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions
-1. [ ] Each action is composed of one or more workflows which is composed of one or more jobs, and each job is composed of one or more step
-1. [ ] Each workflow is composed of one or more action which is composed of one or more jobs, and each job is composed of one or more step
-1. [x] Each workflow is composed of one or more job which is composed of one or more step, and each step is an action or a script
-1. [ ] Each action is composed of one or more job which is composed of one or more step, and each step is a workflow
+1. [ ] 各アクションは 1 つ以上のワークフローで構成され、各ワークフローは 1 つ以上のジョブで構成され、各ジョブは 1 つ以上のステップで構成されます
+1. [ ] 各ワークフローは 1 つ以上のアクションで構成され、各アクションは 1 つ以上のジョブで構成され、各ジョブは 1 つ以上のステップで構成されます
+1. [x] 各ワークフローは 1 つ以上のジョブで構成され、各ジョブは 1 つ以上のステップで構成され、各ステップはアクションまたはスクリプトです
+1. [ ] 各アクションは 1 つ以上のジョブで構成され、各ジョブは 1 つ以上のステップで構成され、各ステップはワークフローです

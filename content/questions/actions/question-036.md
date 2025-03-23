@@ -1,5 +1,5 @@
 ---
-question: "You defined a matrix job `example_matrix`. How can limit the matrix to run a maximum of 2 jobs at a time?"
+question: "マトリックスジョブ `example_matrix` を定義しました。マトリックスが一度に最大2つのジョブを実行するように制限するにはどうすればよいですか？"
 archetype: "questions"
 title: "Question 036"
 ---
@@ -14,7 +14,7 @@ title: "Question 036"
           os: [ubuntu-latest, windows-latest]
 ```
 > https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstrategymax-parallel
-1. [x] Set `jobs.example_matrix.strategy.max-parallel` to 2
-1. [ ] Set `jobs.example_matrix.strategy.concurrency` to 2
-1. [ ] Use GitHub's REST API to check if the job count is lesser than 2
-1. [ ] It's not possible, a matrix will always run all of the jobs in parallel if there are runners available
+1. [x] `jobs.example_matrix.strategy.max-parallel` を 2 に設定します
+1. [ ] `jobs.example_matrix.strategy.concurrency` を 2 に設定します
+1. [ ] GitHub の REST API を使用してジョブ数が 2 未満であることを確認します
+1. [ ] それは不可能です。マトリックスは、ランナーが利用可能であれば常にすべてのジョブを並行して実行します

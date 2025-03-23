@@ -1,7 +1,7 @@
 ---
 archetype: "questions"
 title: "Question 120"
-question: "What is the correct syntax for specifying a cleanup script in a container action?"
+question: "コンテナアクションでクリーンアップスクリプトを指定する正しい構文はどれですか？"
 ---
 
 

@@ -1,11 +1,11 @@
 ---
-question: "What are the default permissions of a member in a GitHub organization?"
+question: "GitHub組織におけるメンバーのデフォルト権限は何ですか？"
 archetype: "questions"
 title: "Question 049"
 ---
 
 > https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization
-1. [x] Members can create private repositories (subject to the organization's policy) and participate in projects within the organization to which they are granted access.
-1. [ ] They have the ability to delete the organization.
-1. [ ] They can manage billing information.
-1. [ ] Members cannot interact with the organization's repositories until promoted to owner.
+1. [x] メンバーはプライベートリポジトリを作成でき（組織のポリシーに依存）、アクセス権が付与された組織内のプロジェクトに参加できる。
+1. [ ] 組織を削除する権限を持つ。
+1. [ ] 請求情報を管理できる。
+1. [ ] メンバーは所有者に昇格されるまで組織のリポジトリとやり取りできない。

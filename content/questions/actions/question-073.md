@@ -1,5 +1,5 @@
 ---
-question: "How many jobs will be executed in the following workflow?"
+question: "次のワークフローでは、いくつのジョブが実行されますか？"
 archetype: "questions"
 title: "Question 073"
 ---

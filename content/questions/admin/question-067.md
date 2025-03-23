@@ -1,5 +1,5 @@
 ---
-question: "Which tools can be used to remove sensitive data from a Git repository's history?"
+question: "Gitリポジトリの履歴から機密データを削除するために使用できるツールはどれですか？"
 archetype: "questions"
 title: "Question 067"
 ---

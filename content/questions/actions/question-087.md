@@ -1,12 +1,12 @@
 ---
 archetype: "questions"
 title: "Question 087"
-question: "How can you cache dependencies to speed up workflow execution?"
+question: "依存関係をキャッシュしてワークフローの実行を高速化するにはどうすればよいですか？"
 ---
 
 
 > https://docs.github.com/en/enterprise-cloud@latest/actions/using-workflows/caching-dependencies-to-speed-up-workflows#about-caching-workflow-dependencies
-1. [ ] Using the cache keyword
-1. [x] Using the actions/cache action
-1. [ ] By storing them in the repository
-1. [ ] By using the store keyword
+1. [ ] cache キーワードを使用します
+1. [x] actions/cache アクションを使用します
+1. [ ] リポジトリに保存します
+1. [ ] store キーワードを使用します

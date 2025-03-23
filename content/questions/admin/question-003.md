@@ -1,7 +1,7 @@
 ---
-question: "Which is the minimum level of support that provides help with installing and using Advanced Security?"
+question: "Advanced Security のインストールと使用に関するサポートを提供する最低限のサポートレベルはどれですか？"
 archetype: "questions"
-title: "Question 003"
+title: "質問 003"
 ---
 
 > https://docs.github.com/en/enterprise-server/support/learning-about-github-support/about-github-support#about-github-support

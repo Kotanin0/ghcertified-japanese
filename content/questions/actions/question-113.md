@@ -1,5 +1,5 @@
 ---
-question: "What is true about the following workflow configuration if triggered against the `octo/my-dev-repo` repository?"
+question: "`octo/my-dev-repo`リポジトリに対してトリガーされた場合、以下のワークフロー構成について正しいのはどれですか？"
 archetype: "questions"
 title: "Question 113"
 ---
@@ -19,7 +19,7 @@ jobs:
             - run: npm install -g bats
 ```
 > https://docs.github.com/en/actions/using-jobs/using-conditions-to-control-job-execution
-1. [x] the `production-deploy` job will be marked as skipped
-1. [ ] the `production-deploy` job will error
-1. [ ] the `production-deploy` job will execute three steps
-1. [ ] the `production-deploy` job will run if the `node-version` is `14`
+1. [x] `production-deploy`ジョブはスキップとしてマークされる
+1. [ ] `production-deploy`ジョブはエラーになる
+1. [ ] `production-deploy`ジョブは3つのステップを実行する
+1. [ ] `node-version`が`14`の場合、`production-deploy`ジョブが実行される

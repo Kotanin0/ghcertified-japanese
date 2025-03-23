@@ -1,6 +1,6 @@
 ---
 archetype: "questions"
-question: "What's the maximum amount of reusable workflows that can be called from a single workflow file? "
+question: "1 つのワークフロー ファイルから呼び出すことができる再利用可能なワークフローの最大数はいくつですか？"
 title: "Question 076"
 ---
 

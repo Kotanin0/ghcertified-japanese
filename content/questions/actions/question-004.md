@@ -1,8 +1,8 @@
 ---
-question: "Are GitHub Actions free for public repositories?"
+question: "GitHub Actionsはパブリックリポジトリで無料で使用できますか？"
 archetype: "questions"
 title: "Question 004"
 ---
 
-1. [x] Yes
-1. [ ] No
+1. [x] はい
+1. [ ] いいえ

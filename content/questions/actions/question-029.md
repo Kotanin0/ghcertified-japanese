@@ -1,25 +1,25 @@
 ---
-question: "Your Pull Request analysis workflow uses multiple code analysis tools and takes about 20minutes to fully complete. It is triggered on `pull_request` event with `branches` filter set to `master`. Therefore if a developer pushes multiple commits within few minutes multiple workflows are running in parallel. How can you stop all previous workflow runs and only run the one with latest changes?"
+question: "プルリクエスト分析ワークフローは複数のコード分析ツールを使用し、完全に完了するまでに約20分かかります。このワークフローは`pull_request`イベントでトリガーされ、`branches`フィルターが`master`に設定されています。そのため、開発者が数分以内に複数のコミットをプッシュすると、複数のワークフローが並行して実行されます。すべての以前のワークフロー実行を停止し、最新の変更のみを実行するにはどうすればよいですか？"
 archetype: "questions"
 title: "Question 029"
 ---
 
 > https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-concurrency-to-cancel-any-in-progress-job-or-run
 
-1. [x] Use concurrency with cancel-in-progress
+1. [x] `cancel-in-progress` を使用した並行処理を使用する
 ```yaml
   concurrency:
     group: ${{ github.workflow }}-${{ github.ref }}
     cancel-in-progress: true
 ```
-1. [ ] Use concurrency
+1. [ ] 並行処理を使用する
 ```yaml
   concurrency:
     group: ${{ github.ref }}
 ```
-> This would queue runs on that github ref. It will not stop previous runs
+> これはそのGitHubリファレンスで実行をキューに入れますが、以前の実行を停止しません。
 
-1. [ ] Use activity types filter
+1. [ ] アクティビティタイプフィルターを使用する
 ```yaml
   on:
     pull_request:
@@ -27,8 +27,9 @@ title: "Question 029"
         - master
       types: [latest]
 ```
-> There is no such activity type as `latest` for pull_request event
-1. [ ] Use cancel-in-progress flag for `pull_request` event
+> `pull_request`イベントには`latest`というアクティビティタイプはありません。
+
+1. [ ] `pull_request`イベントに対して`cancel-in-progress`フラグを使用する
 ```yaml
   on:
     pull_request:

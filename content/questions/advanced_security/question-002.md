@@ -1,11 +1,11 @@
 ---
 archetype: "questions"
 title: "Question 002"
-question: "What does `shifting left` mean in the context of Security?"
+question: "セキュリティの文脈で「左シフト」とは何を意味しますか？"
 ---
 
 > https://github.com/readme/guides/github-advanced-security-telus
-1. [x] Adopting security practices early in the development cycle
-1. [ ] Writing code in a language that is commonly used
-1. [ ] Incorporating security practices right before hitting production
-1. [ ] Writing code without worrying about security
+1. [x] 開発サイクルの早い段階でセキュリティ対策を採用すること
+1. [ ] 一般的に使用される言語でコードを書くこと
+1. [ ] 本番環境に移行する直前にセキュリティ対策を組み込むこと
+1. [ ] セキュリティを気にせずにコードを書くこと

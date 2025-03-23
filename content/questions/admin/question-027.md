@@ -1,11 +1,11 @@
 ---
-question: "What is the purpose of enterprise accounts in GitHub Enterprise Cloud?"
+question: "GitHub Enterprise Cloudにおけるエンタープライズアカウントの目的は何ですか？"
 archetype: "questions"
 title: "Question 027"
 ---
 
 > https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-enterprise-cloud
-1. [x] To provide administrators with a single point of visibility and management across multiple organizations
-1. [ ] To provide individual users with unlimited private repositories
-1. [ ] To offer free access to GitHub Enterprise Server
-1. [ ] To allow users to manage their public and private contributions separately
+1. [x] 管理者に複数の組織を一元的に可視化および管理する手段を提供する
+1. [ ] 個々のユーザーに無制限のプライベートリポジトリを提供する
+1. [ ] GitHub Enterprise Serverへの無料アクセスを提供する
+1. [ ] ユーザーが公開およびプライベートの貢献を別々に管理できるようにする

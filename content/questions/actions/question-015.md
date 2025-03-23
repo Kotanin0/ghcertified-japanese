@@ -1,9 +1,8 @@
 ---
-question: "Which matrix job definition is syntactically correct?"
+question: "構文的に正しいマトリックスジョブ定義はどれですか？"
 archetype: "questions"
 title: "Question 015"
 ---
-
 
 > https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs#using-a-matrix-strategy
 

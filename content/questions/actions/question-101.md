@@ -1,5 +1,5 @@
 ---
-question: "How do you ensure that `Upload Failure test report` step is executed only if `Run Tests` step fails?"
+question: "`Run Tests` ステップが失敗した場合にのみ `Upload Failure test report` ステップを実行するにはどうすればよいですか？"
 archetype: "questions"
 title: "Question 101"
 ---

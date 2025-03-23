@@ -1,5 +1,5 @@
 ---
-question: "Dave wants to be notified when a comment is created on an issue within a GitHub repository. Which event trigger should be used within the workflow configuration?"
+question: "DaveはGitHubリポジトリ内でコメントが作成されたときに通知を受け取りたいと考えています。ワークフロー構成内でどのイベントトリガーを使用する必要がありますか？"
 archetype: "questions"
 title: "Question 111"
 ---

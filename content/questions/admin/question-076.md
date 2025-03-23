@@ -1,11 +1,11 @@
 ---
-question: "What's the difference between GitHub Apps and OAuth apps?"
+question: "GitHubアプリとOAuthアプリの違いは何ですか？"
 archetype: "questions"
 title: "Question 076"
 ---
 
 > https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/differences-between-github-apps-and-oauth-apps
-1. [x] GitHub Apps offer granular permissions to specific repositories, while OAuth Apps request access to user data across all repositories.
-1. [ ] GitHub Apps and OAuth Apps do not differ; they provide the same level of permissions.
-1. [ ] OAuth Apps offer more granular permissions compared to GitHub Apps.
-1. [ ] GitHub Apps can only access public repositories, whereas OAuth Apps can access both public and private repositories.
+1. [x] GitHubアプリは特定のリポジトリへの詳細な権限を提供しますが、OAuthアプリはすべてのリポジトリにわたるユーザーデータへのアクセスを要求します。
+1. [ ] GitHubアプリとOAuthアプリに違いはなく、同じレベルの権限を提供します。
+1. [ ] OAuthアプリはGitHubアプリよりも詳細な権限を提供します。
+1. [ ] GitHubアプリはパブリックリポジトリにのみアクセスでき、OAuthアプリはパブリックおよびプライベートリポジトリの両方にアクセスできます。

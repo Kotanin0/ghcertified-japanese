@@ -1,11 +1,11 @@
 ---
-question: "What is the primary purpose of a GitHub organization?"
+question: "GitHub組織の主な目的は何ですか？"
 archetype: "questions"
 title: "Question 041"
 ---
 
 > https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations#about-organizations
-1. [x] To allow businesses and open-source projects to collaborate across many projects at once with advanced security and administrative features.
-1. [ ] To provide individual users with personal space to host their private projects.
-1. [ ] To serve as a backup service for code repositories.
-1. [ ] To offer a platform for personal blogging and website hosting.
+1. [x] ビジネスやオープンソースプロジェクトが、高度なセキュリティと管理機能を備えた状態で複数のプロジェクトを一度に共同作業できるようにすること。
+1. [ ] 個人ユーザーにプライベートプロジェクトをホストするための個人スペースを提供すること。
+1. [ ] コードリポジトリのバックアップサービスとして機能すること。
+1. [ ] 個人ブログやウェブサイトホスティングのプラットフォームを提供すること。

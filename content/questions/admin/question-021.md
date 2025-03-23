@@ -1,11 +1,11 @@
 ---
-question: "What are the implications of a managed user needing to contribute to resources outside of the enterprise?"
+question: "エンタープライズ外のリソースに貢献する必要がある管理ユーザーにはどのような影響がありますか？"
 archetype: "questions"
 title: "Question 021"
 ---
 
 > https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/understanding-iam-for-enterprises/about-enterprise-managed-users#supporting-developers-with-multiple-user-accounts-on-githubcom
-1. [x] Managed users are not allowed to contribute to public resources, and they need a separate personal account for this purpose.
-1. [ ] Managed users can freely contribute to public resources and external enterprises without restrictions.
-1. [ ] Managed users must request special permission from GitHub to contribute to external resources.
-1. [ ] Contributions to external resources are automatically managed by the enterprise's IdP.
+1. [x] 管理ユーザーは公開リソースに貢献することが許可されておらず、そのために別の個人アカウントが必要です。
+1. [ ] 管理ユーザーは公開リソースや外部エンタープライズに制限なく自由に貢献できます。
+1. [ ] 管理ユーザーは外部リソースに貢献するためにGitHubから特別な許可を求める必要があります。
+1. [ ] 外部リソースへの貢献はエンタープライズのIdPによって自動的に管理されます。

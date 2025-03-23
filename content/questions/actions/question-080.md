@@ -1,26 +1,26 @@
 ---
 archetype: "questions"
 title: "Question 080"
-question: "What is the correct syntax for setting the directory for all `run` commands in a workflow?"
+question: "ワークフロー内のすべての `run` コマンドのディレクトリを設定する正しい構文はどれですか？"
 ---
 
 > https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#defaultsrunworking-directory
 
-1. [x] set `working-directory` under `defaults.run`
+1. [x] `defaults.run` の下に `working-directory` を設定します
    ```yaml
     defaults:
         run:
             shell: bash
             working-directory: ./scripts
    ```
-1. [ ] set `directory` under `defaults.run`
+1. [ ] `defaults.run` の下に `directory` を設定します
    ```yaml
     defaults:
         run:
             shell: bash
             directory: ./scripts
    ```
-1. [ ] set `working-directory` under `job`
+1. [ ] `job` の下に `working-directory` を設定します
    ```yaml
     defaults:
         run:
@@ -28,7 +28,7 @@ question: "What is the correct syntax for setting the directory for all `run` co
     job:
         working-directory: ./scripts
    ```
-1. [ ] set `directory` under `job`
+1. [ ] `job` の下に `directory` を設定します
    ```yaml
     defaults:
         run:

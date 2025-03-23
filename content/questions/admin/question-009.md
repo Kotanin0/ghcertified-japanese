@@ -1,10 +1,10 @@
 ---
-question: "What are the benefits and risks of using apps and actions from the GitHub Marketplace?"
+question: "GitHub Marketplace のアプリやアクションを使用することの利点とリスクは何ですか？"
 archetype: "questions"
-title: "Question 009"
+title: "質問 009"
 ---
 
-1. [x] Benefits include automation of workflows and enhanced functionality; risks include potential security vulnerabilities and dependency on third-party services.
-1. [ ] Benefits are limited to user interface improvements; risks include high costs and increased system complexity.
-1. [ ] The only benefit is the ease of installation; risks involve complete access to codebase and data.
-1. [ ] Benefits include official support from GitHub; risks include limited functionality and lack of customization options.
+1. [x] 利点にはワークフローの自動化や機能の強化が含まれ、リスクには潜在的なセキュリティ脆弱性やサードパーティサービスへの依存が含まれます。
+1. [ ] 利点はユーザーインターフェースの改善に限定され、リスクには高コストやシステムの複雑化が含まれます。
+1. [ ] 唯一の利点はインストールの容易さであり、リスクにはコードベースやデータへの完全なアクセスが含まれます。
+1. [ ] 利点には GitHub の公式サポートが含まれ、リスクには機能の制限やカスタマイズオプションの欠如が含まれます。

@@ -1,11 +1,11 @@
 ---
-question: "How can you validate that your GitHub self-hosted-runner can access all required GitHub services?"
+question: "GitHub セルフホストランナーが必要なすべての GitHub サービスにアクセスできることを検証するにはどうすればよいですか？"
 archetype: "questions"
 title: "Question 066"
 ---
 
 > https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/monitoring-and-troubleshooting-self-hosted-runners#checking-self-hosted-runner-network-connectivity
-1. [x] Using a GitHub provided script on the runner machine
-1. [ ] By trying to access the runner machine by `ssh` to validate the network connectivity
-1. [ ] By using the predefined GitHub Actions workflow `network-connectivity.yml`
-1. [ ] GitHub will validate the network connectivity automatically when the runner application is installed on the runner machine
+1. [x] ランナーマシン上で GitHub 提供のスクリプトを使用する
+1. [ ] ネットワーク接続を検証するために `ssh` を使用してランナーマシンにアクセスする
+1. [ ] 事前定義された GitHub Actions ワークフロー `network-connectivity.yml` を使用する
+1. [ ] ランナーアプリケーションがランナーマシンにインストールされると、GitHub がネットワーク接続を自動的に検証します

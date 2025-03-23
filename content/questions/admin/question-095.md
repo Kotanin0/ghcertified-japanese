@@ -1,11 +1,11 @@
 ---
-question: "What are the differences and use cases between GitHub Packages and releases?"
+question: "GitHub Packagesとリリースの違いと使用例は何ですか？"
 archetype: "questions"
 title: "Question 095"
 ---
 
 > https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages#about-github-packages
-1. [x] GitHub Packages is optimized for hosting and managing packages, offering integrated permissions management and billing, while releases are for distributing software versions directly linked to Git tags.
-1. [ ] GitHub Packages and releases are functionally identical, with no differences in use cases.
-1. [ ] Releases are used for private software distribution, whereas GitHub Packages is exclusively for public package hosting.
-1. [ ] GitHub Packages requires external CI/CD integration for distribution, unlike releases which are fully managed within GitHub.
+1. [x] GitHub Packagesはパッケージのホスティングと管理に最適化されており、統合された権限管理と課金を提供します。一方、リリースはGitタグに直接リンクされたソフトウェアバージョンの配布に使用されます。
+1. [ ] GitHub Packagesとリリースは機能的に同一で、使用例に違いはありません。
+1. [ ] リリースはプライベートソフトウェア配布に使用され、GitHub Packagesはパブリックパッケージホスティング専用です。
+1. [ ] GitHub Packagesは配布に外部CI/CD統合が必要ですが、リリースはGitHub内で完全に管理されます。

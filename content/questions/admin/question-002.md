@@ -1,12 +1,11 @@
 ---
 archetype: "questions"
-title: "Question 002"
-question: "What is the GitHub dependency graph?"
+title: "質問 002"
+question: "GitHub の依存関係グラフとは何ですか？"
 ---
 
-
 > https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph
-1. [x] It is a representation of a repository's dependencies and dependents.
-1. [ ] There is no such thing as the GitHub dependency graph.
-1. [ ] It is a tool that automatically proposes version updates to dependencies in a repository.
-1. [ ] It is a GitHub maintained list of known vulnerabilities in open source software packages.
+1. [x] リポジトリの依存関係と依存元の表現です。
+1. [ ] GitHub の依存関係グラフというものは存在しません。
+1. [ ] リポジトリ内の依存関係のバージョン更新を自動的に提案するツールです。
+1. [ ] オープンソースソフトウェアパッケージの既知の脆弱性を記載した GitHub 管理のリストです。

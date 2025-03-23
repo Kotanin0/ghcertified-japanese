@@ -1,11 +1,11 @@
 ---
-question: "What is SCIM in the context of GitHub?"
+question: "GitHubにおけるSCIMとは何ですか？"
 archetype: "questions"
 title: "Question 022"
 ---
 
 > https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/about-scim-for-organizations
-1. [x] SCIM, or System for Cross-domain Identity Management, is a protocol designed to automate identity provisioning and management. In GitHub, SCIM integrates with external Identity Providers (IdPs) to manage GitHub Enterprise Cloud organization memberships, using a base URL for SCIM endpoints to perform operations like listing, inviting, and updating user identities.
-1. [ ] SCIM is a user management system exclusive to GitHub, allowing users to customize their profiles and repositories. In GitHub, SCIM works by providing a platform-specific interface for these customizations.
-1. [ ] SCIM stands for System for Cross-domain Identity Management. It's a protocol that GitHub uses to manage internal database systems, focusing mainly on securing data and user information without integrating with any external systems.
-1. [ ] SCIM is a GitHub-specific tool used for enhancing the network performance of GitHub servers. It works by managing internet bandwidth and traffic within the GitHub ecosystem, ensuring optimal performance for all users.
+1. [x] SCIM（System for Cross-domain Identity Management）は、アイデンティティのプロビジョニングと管理を自動化するためのプロトコルです。GitHubでは、SCIMは外部のアイデンティティプロバイダー（IdP）と統合し、GitHub Enterprise Cloud組織のメンバーシップを管理します。SCIMエンドポイントの基本URLを使用して、ユーザーアイデンティティの一覧表示、招待、更新などの操作を実行します。
+1. [ ] SCIMはGitHub専用のユーザー管理システムであり、ユーザーがプロファイルやリポジトリをカスタマイズできるようにします。GitHubでは、SCIMはこれらのカスタマイズのためのプラットフォーム固有のインターフェースを提供します。
+1. [ ] SCIMはSystem for Cross-domain Identity Managementの略です。GitHubが内部データベースシステムを管理するために使用するプロトコルであり、主にデータとユーザー情報のセキュリティを確保することに焦点を当てており、外部システムとの統合は行いません。
+1. [ ] SCIMはGitHub専用のツールであり、GitHubサーバーのネットワークパフォーマンスを向上させるために使用されます。インターネット帯域幅とトラフィックを管理し、すべてのユーザーに最適なパフォーマンスを提供します。

@@ -1,11 +1,11 @@
 ---
-question: "What can be found on a team’s page within a GitHub organization?"
+question: "GitHub組織内のチームページには何が含まれていますか？"
 archetype: "questions"
 title: "Question 057"
 ---
 
 > https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams
-1. [x] Team members, child teams, the team’s repositories, and access to team settings, including the ability to update the team’s description and profile picture.
-1. [ ] A live chat feature that allows real-time communication between team members.
-1. [ ] Financial reports related to the team's use of organization resources.
-1. [ ] External links to non-GitHub resources used by the team.
+1. [x] チームメンバー、子チーム、チームのリポジトリ、およびチームの説明やプロフィール画像を更新する機能を含むチーム設定へのアクセス。
+1. [ ] チームメンバー間でリアルタイム通信を可能にするライブチャット機能。
+1. [ ] 組織リソースの使用に関連するチームの財務報告書。
+1. [ ] チームが使用するGitHub以外のリソースへの外部リンク。

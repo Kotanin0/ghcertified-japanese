@@ -1,7 +1,7 @@
 ---
 archetype: "questions"
 title: "Question 094"
-question: "What is the default shell used by GitHub Actions on Windows runners?"
+question: "Windows ランナーで GitHub Actions が使用するデフォルトのシェルは何ですか？"
 ---
 
 

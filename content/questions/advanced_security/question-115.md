@@ -1,7 +1,7 @@
 ---
 archetype: "questions"
-title: "Question 115"
-question: "Which Dependabot comment command will get a pull request successfully completed?"
+title: "質問 115"
+question: "Dependabot のコメントコマンドのうち、プルリクエストを正常に完了させるものはどれですか？"
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-question: "Fill in the blank: When using `push` event trigger filters you can use <____> patterns to target multiple branches"
+question: "空欄を埋めてください：`push` イベントトリガーフィルターを使用する際、複数のブランチを対象にするために <____> パターンを使用できます。"
 archetype: "questions"
 title: "Question 019"
 ---

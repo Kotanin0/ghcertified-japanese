@@ -1,10 +1,10 @@
 ---
-question: "Which GitHub plan allows to use secret scanning in private repositories?"
+question: "どのGitHubプランでプライベートリポジトリでのシークレットスキャンを使用できますか？"
 archetype: "questions"
 title: "Question 044"
 ---
 
-1. [x] Any GitHub Enterprise plan with a GHAS license
+1. [x] GHASライセンスを持つ任意のGitHub Enterpriseプラン
 1. [ ] GitHub Enterprise Cloud
 1. [ ] GitHub Enterprise Server
 1. [ ] GitHub Pro

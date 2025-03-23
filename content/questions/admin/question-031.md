@@ -1,11 +1,11 @@
 ---
-question: "Which environments can GitHub Enterprise Server be deployed to?"
+question: "GitHub Enterprise Serverはどのような環境にデプロイできますか？"
 archetype: "questions"
 title: "Question 031"
 ---
 
 > https://docs.github.com/en/enterprise-server@latest/admin/overview/about-github-enterprise-server
-1. [x] On-premises data center or to a public cloud service (e.g., AWS, GCP, Azure)
-1. [ ] Exclusively to private cloud environments
-1. [ ] Only on GitHub-managed servers
-1. [ ] Directly onto personal computing devices
+1. [x] オンプレミスのデータセンターまたはパブリッククラウドサービス（例: AWS、GCP、Azure）
+1. [ ] プライベートクラウド環境にのみデプロイ可能
+1. [ ] GitHubが管理するサーバー上にのみデプロイ可能
+1. [ ] 個人のコンピューティングデバイスに直接デプロイ可能

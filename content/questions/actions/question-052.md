@@ -1,10 +1,10 @@
 ---
-question: "Is this statement true? `Docker container actions are usually slower than JavaScript actions`"
+question: "この記述は正しいですか？`Docker コンテナアクションは通常、JavaScript アクションよりも遅い`"
 archetype: "questions"
 title: "Question 052"
 ---
 
-> Docker container actions are slower than JavaScript actions
-1. [x] True
-1. [ ] False
-> Because of the latency to build and retrieve the container, Docker container actions are slower than JavaScript actions.
+> Docker コンテナアクションは JavaScript アクションよりも遅い
+1. [x] 真
+1. [ ] 偽
+> コンテナを構築および取得するための待機時間があるため、Docker コンテナアクションは JavaScript アクションよりも遅いです。

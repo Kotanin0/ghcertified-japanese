@@ -1,9 +1,8 @@
 ---
-question: "What are the different permission levels you can assign to `GITHUB_TOKEN` in the `permissions` block?"
+question: "`permissions` ブロックで `GITHUB_TOKEN` に割り当てることができる権限レベルは何ですか？"
 archetype: "questions"
 title: "Question 002"
 ---
-
 
 > https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs
 

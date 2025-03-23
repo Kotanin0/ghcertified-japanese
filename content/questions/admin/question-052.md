@@ -1,11 +1,11 @@
 ---
-question: "How can an organization owner change the role of a member within the organization?"
+question: "組織所有者が組織内のメンバーの役割を変更するにはどうすればよいですか？"
 archetype: "questions"
 title: "Question 052"
 ---
 
 > https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization
-1. [x] By navigating to the organization's settings, selecting `Members`,and then adjusting the member's role from the list.
-1. [ ] Members can change their own roles within the organization settings.
-1. [ ] By deleting and re-inviting the member with the desired role.
-1. [ ] Role changes within an organization are not possible; a new organization must be created.
+1. [x] 組織の設定に移動し、「メンバー」を選択して、リストからメンバーの役割を調整する。
+1. [ ] メンバーは組織設定内で自分の役割を変更できる。
+1. [ ] メンバーを削除して、希望する役割で再招待する。
+1. [ ] 組織内で役割を変更することはできず、新しい組織を作成する必要がある。

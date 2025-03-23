@@ -1,5 +1,5 @@
 ---
-question: "What must be added to `actions/checkout` if `my-org/my-private-repo` is a private repository differing from the one containing the current workflow?"
+question: "`my-org/my-private-repo`が現在のワークフローを含むリポジトリとは異なるプライベートリポジトリである場合、`actions/checkout`に何を追加する必要がありますか？"
 archetype: "questions"
 title: "Question 123"
 ---
@@ -20,7 +20,7 @@ jobs:
 
 > https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#example-using-an-action-inside-a-different-private-repository-than-the-workflow
 
-1. [x] Create a GitHub secret `MY_ACCESS_TOKEN`
+1. [x] GitHubシークレット`MY_ACCESS_TOKEN`を作成する
 ```yaml
 with:
     repository: my-org/my-private-repo
@@ -28,7 +28,7 @@ with:
     token: ${{ secrets.MY_ACCESS_TOKEN }}
 ```
 
-1. [ ] Create an input `MY_ACCESS_TOKEN`
+1. [ ] 入力`MY_ACCESS_TOKEN`を作成する
 ```yaml
 with:
     repository: my-org/my-private-repo
@@ -36,7 +36,7 @@ with:
     token: ${{ MY_ACCESS_TOKEN }}
 ```
 
-1. [ ] The environmental variable `GITHUB_TOKEN`
+1. [ ] 環境変数`GITHUB_TOKEN`
 ```yaml
 with:
     repository: my-org/my-private-repo
@@ -44,7 +44,7 @@ with:
     token: $GITHUB_TOKEN
 ```
 
-1. [ ] Leave as is since access tokens will be passed automatically
+1. [ ] アクセストークンは自動的に渡されるため、そのままにする
 ```yaml
 with:
     repository: my-org/my-private-repo

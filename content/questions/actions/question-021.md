@@ -1,5 +1,5 @@
 ---
-question: "What are the possible types of an input variable for a manually triggered workflow? (Select five.)"
+question: "手動でトリガーされるワークフローの入力変数の可能なタイプは何ですか？（5つ選択してください。）"
 archetype: "questions"
 title: "Question 021"
 ---

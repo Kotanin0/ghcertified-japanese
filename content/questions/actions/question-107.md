@@ -1,5 +1,5 @@
 ---
-question: "Which variable would you set to `true` in order to enable step debug logging?"
+question: "ステップのデバッグログを有効にするには、どの変数を `true` に設定しますか？"
 archetype: "questions"
 title: "Question 107"
 ---
