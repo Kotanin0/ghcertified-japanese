@@ -1,5 +1,5 @@
 ---
-question: "Which of the following default environment variables contains the full name (e.g `octocat/hello-world`) of the repository where the workflow is running?"
+question: "次のデフォルト環境変数のうち、ワークフローが実行されているリポジトリのフルネーム（例: `octocat/hello-world`）を含むものはどれですか？"
 archetype: "questions"
 title: "Question 074"
 ---

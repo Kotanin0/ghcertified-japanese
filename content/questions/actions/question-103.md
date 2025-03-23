@@ -1,12 +1,12 @@
 ---
-question: "In GitHub Actions, if you define both branches and paths filter, what is the effect on the workflow execution?"
+question: "GitHub Actions で `branches` フィルターと `paths` フィルターの両方を定義した場合、ワークフローの実行にどのような影響がありますか？"
 archetype: "questions"
 title: "Question 103"
 ---
 
 
 > https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onpull_requestpull_request_targetbranchesbranches-ignore
-1. [x] the workflow will only run when both `branches` and `paths` are satisfied
-1. [ ] the workflow will run when either `branches` or `paths` are satisfied, but will only apply the matching filter
-1. [ ] the workflow will run when either `branches` or `paths` are satisfied
-1. [ ] the workflow will not run when both `branches` and `paths` are satisfied
+1. [x] ワークフローは `branches` と `paths` の両方が満たされた場合にのみ実行されます
+1. [ ] ワークフローは `branches` または `paths` のいずれかが満たされた場合に実行されますが、一致するフィルターのみが適用されます
+1. [ ] ワークフローは `branches` または `paths` のいずれかが満たされた場合に実行されます
+1. [ ] ワークフローは `branches` と `paths` の両方が満たされた場合には実行されません

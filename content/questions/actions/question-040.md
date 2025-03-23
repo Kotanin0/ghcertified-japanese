@@ -1,5 +1,5 @@
 ---
-question: "In the following example, `workflow A` passes all of its secrets to `workflow B`, by using the inherit keyword. Then `workflow B` calls `workflow C`. Which statement regarding `secrets` is true for that example?"
+question: "次の例では、`workflow A` は `inherit` キーワードを使用してすべてのシークレットを `workflow B` に渡します。その後、`workflow B` は `workflow C` を呼び出します。この例における `secrets` に関する記述のうち正しいものはどれですか？"
 archetype: "questions"
 title: "Question 040"
 ---
@@ -18,9 +18,9 @@ title: "Question 040"
       uses: different-org/example-repo/.github/workflows/C.yml@main
 ```
 > https://docs.github.com/en/actions/using-workflows/reusing-workflows#passing-secrets-to-nested-workflows
-1. [x] All secrets available to `workflow A` will be also available to `workflow B`, but not to `workflow C`
-1. [ ] All secrets from `octo-org` organization and `octo-org/example-repo` repository will be available to `workflow B`, but not to `workflow C`
-> Not all secrets from `octo-org` organization have to be made available to `octo-org/example-repo`.
-1. [ ] All secrets available to `workflow A` will be also available to `workflow B` and `workflow C`
-> `Workflow B` would need to add `secrets: inherit` when calling `workflow C`
-1. [ ] Only repository and environment secrets available to `workflow A` will be available to `workflow B`, but not to `workflow C`. Organization scoped secrets cannot be inherited
+1. [x] `workflow A` で利用可能なすべてのシークレットは `workflow B` でも利用可能ですが、`workflow C` では利用できません。
+1. [ ] `octo-org` 組織および `octo-org/example-repo` リポジトリのすべてのシークレットは `workflow B` で利用可能ですが、`workflow C` では利用できません。
+> `octo-org` 組織のすべてのシークレットが `octo-org/example-repo` に提供される必要はありません。
+1. [ ] `workflow A` で利用可能なすべてのシークレットは `workflow B` および `workflow C` でも利用可能です。
+> `workflow B` が `workflow C` を呼び出す際に `secrets: inherit` を追加する必要があります。
+1. [ ] `workflow A` で利用可能なリポジトリおよび環境シークレットのみが `workflow B` で利用可能ですが、`workflow C` では利用できません。組織スコープのシークレットは継承できません。

@@ -1,11 +1,11 @@
 ---
-question: "To run a `step` only if the secret `MY_SECRET` has been set, you can:"
+question: "シークレット `MY_SECRET` が設定されている場合にのみ `step` を実行するにはどうすればよいですか？"
 archetype: "questions"
 title: "Question 068"
 ---
 
 > https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-secrets
-1. [x] Set the secret `MY_SECRET` as a job level environment variable, then reference that environment variable to conditionally run that step
+1. [x] シークレット `MY_SECRET` をジョブレベルの環境変数として設定し、その環境変数を参照してステップを条件付きで実行する
 ```yaml
   my-job:
     runs-on: ubuntu-latest
@@ -14,26 +14,26 @@ title: "Question 068"
     steps:
       - if: ${{ env.my_secret != '' }}
 ```
-1. [ ] By creating the following conditional on job level
+1. [ ] ジョブレベルで次の条件を作成する
 ```yaml
   my-job:
     runs-on: ubuntu-latest
     if: ${{ secrets.MY_SECRET == '' }}
 ```
-> secrets cannot be directly referenced in if: conditionals
-1. [ ] By creating the following conditional on step level
+> secrets は if: 条件内で直接参照できません
+1. [ ] ステップレベルで次の条件を作成する
 ```yaml
   my-job:
     runs-on: ubuntu-latest
     steps:
       - if: ${{ secrets.MY_SECRET == '' }}
 ```
-> secrets cannot be directly referenced in if: conditionals
-1. [ ] By creating the following conditional on step level
+> secrets は if: 条件内で直接参照できません
+1. [ ] ステップレベルで次の条件を作成する
 ```yaml
   my-job:
     runs-on: ubuntu-latest
     steps:
       - if: ${{ secrets.MY_SECRET }}
 ```
-> secrets cannot be directly referenced in if: conditionals
+> secrets は if: 条件内で直接参照できません

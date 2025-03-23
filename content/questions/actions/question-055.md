@@ -1,12 +1,12 @@
 ---
-question: "A workflow was initially run on `commit A` and failed. You fixed the workflow with the subsequent `commit B`. When you re-run that workflow it will run with code from which commit?"
+question: "`commit A` でワークフローが実行され失敗しました。その後、`commit B` でワークフローを修正しました。このワークフローを再実行すると、どのコミットのコードで実行されますか？"
 archetype: "questions"
 title: "Question 055"
 ---
 
 > https://docs.github.com/en/actions/managing-workflow-runs/re-running-workflows-and-jobs#about-re-running-workflows-and-jobs
-1. [x] It will run with code from `commit A`
-1. [ ] It will run with code from `commit B`
-> Re-running a workflow uses the same commit SHA and Git ref of the original event that triggered the workflow run.
-1. [ ] You cannot re-run workflows in GitHub Actions. You have to trigger a new workflow which will run with latest changes
-1. [ ] It will trigger two workflows, one with code from `commit A` and one with code from `commit B`
+1. [x] `commit A` のコードで実行されます
+1. [ ] `commit B` のコードで実行されます
+> ワークフローを再実行すると、元のイベントをトリガーしたコミット SHA と Git リファレンスが使用されます。
+1. [ ] GitHub Actions ではワークフローを再実行できません。最新の変更で新しいワークフローをトリガーする必要があります
+1. [ ] `commit A` のコードと `commit B` のコードで 2 つのワークフローがトリガーされます

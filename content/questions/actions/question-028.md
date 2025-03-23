@@ -1,24 +1,24 @@
 ---
-question: "How can you ensure that a workflow called `Deploy Prod` is always running at most one at a time?"
+question: "ワークフロー`Deploy Prod`が常に1回だけ実行されるようにするにはどうすればよいですか？"
 archetype: "questions"
 title: "Question 028"
 ---
 
 > https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#concurrency
 
-1. [x] Use `concurrency` on workflow level
+1. [x] ワークフローレベルで`concurrency`を使用する
 ```yaml
 concurrency: ${{ github.workflow }}
 ```
-1. [ ] Use `queue` on workflow level
+1. [ ] ワークフローレベルで`queue`を使用する
 ```yaml
 queue: ${{ github.workflow }}
 ```
-1. [ ] Use `order` on workflow level
+1. [ ] ワークフローレベルで`order`を使用する
 ```yaml
 order: ${{ github.workflow }}
 ```
-1. [ ] Use `parallel` on workflow level
+1. [ ] ワークフローレベルで`parallel`を使用する
 ```yaml
 parallel: ${{ github.workflow }}
 ```

@@ -1,5 +1,5 @@
 ---
-question: "What `jobs.job_id.if` conditional will make sure that job `production-deploy` is triggered only on `my-org/my-repo` repository? (Select two.)"
+question: "ジョブ `production-deploy` を `my-org/my-repo` リポジトリでのみトリガーするための `jobs.job_id.if` 条件式はどれですか？（2つ選択してください）"
 archetype: "questions"
 title: "Question 031"
 ---

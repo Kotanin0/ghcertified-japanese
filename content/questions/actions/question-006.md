@@ -1,15 +1,15 @@
 ---
-question: "Which is true about workflows? (Select three.)"
+question: "ワークフローについて正しい記述はどれですか？（3つ選択してください。）"
 archetype: "questions"
 title: "Question 006"
 ---
 
 > https://docs.github.com/en/actions/using-workflows/about-workflows
-- [x] Workflows can run one or multiple jobs at a time
-- [x] Workflows can be triggered manually, by an event or run on a schedule
-- [x] Workflows have to be defined in the `.github/workflows` directory
-- [ ] Workflows can only be run on a schedule
-- [ ] Workflow can run only one job at a time
-- [ ] Workflows are written in any of `.yaml`, `.json` or `.toml` formats
-- [ ] Workflows can be shared in GitHub Marketplace
-  > Actions (not workflows) can be shared in GitHub Marketplace
+- [x] ワークフローは1つまたは複数のジョブを同時に実行できます。
+- [x] ワークフローは手動、イベント、またはスケジュールでトリガーされます。
+- [x] ワークフローは `.github/workflows` ディレクトリに定義する必要があります。
+- [ ] ワークフローはスケジュールでのみ実行できます。
+- [ ] ワークフローは1回に1つのジョブしか実行できません。
+- [ ] ワークフローは `.yaml`、`.json`、`.toml` のいずれかの形式で記述できます。
+- [ ] ワークフローはGitHub Marketplaceで共有できます。
+  > アクション（ワークフローではなく）がGitHub Marketplaceで共有できます。

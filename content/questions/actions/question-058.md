@@ -1,13 +1,13 @@
 ---
-question: "When using GitHub Actions to access resources in one of the cloud providers (such as AWS, Azure or GCP) the safest and recommended way to authenticate is"
+question: "GitHub Actions を使用してクラウドプロバイダー（AWS、Azure、GCP など）のリソースにアクセスする場合、最も安全で推奨される認証方法は何ですか？"
 archetype: "questions"
 title: "Question 058"
 ---
 
 > https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect
-1. [x] Using OIDC
-1. [ ] Using Vault
-1. [ ] Storing access keys in `secrets`
-> Using long lasting access keys is not recommended in case of any security leaks or attacks such as [script injection](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#understanding-the-risk-of-script-injections)
-1. [ ] Storing access keys in `variables`
-> No sensitive values should be stored in `variables`
+1. [x] OIDC を使用する
+1. [ ] Vault を使用する
+1. [ ] アクセスキーを `secrets` に保存する
+> 長期間有効なアクセスキーは、セキュリティ漏洩や [スクリプトインジェクション](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#understanding-the-risk-of-script-injections) などの攻撃のリスクがあるため推奨されません
+1. [ ] アクセスキーを `variables` に保存する
+> 機密値は `variables` に保存すべきではありません

@@ -1,5 +1,5 @@
 ---
-question: "Workflows are defined in which format"
+question: "ワークフローはどの形式で定義されますか？"
 archetype: "questions"
 title: "Question 009"
 ---

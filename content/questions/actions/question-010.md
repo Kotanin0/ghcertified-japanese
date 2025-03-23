@@ -1,5 +1,5 @@
 ---
-question: "Where should you store sensitive data such as passwords or certificates that will be used in workflows"
+question: "ワークフローで使用されるパスワードや証明書などの機密データはどこに保存するべきですか？"
 archetype: "questions"
 title: "Question 010"
 ---

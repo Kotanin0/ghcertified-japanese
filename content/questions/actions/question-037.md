@@ -1,5 +1,5 @@
 ---
-question: "Which of these is a proper way of setting an output parameter `PET` with a value of `DOG` in a `step`."
+question: "`step` 内で値 `DOG` を持つ出力パラメータ `PET` を設定する正しい方法はどれですか？"
 archetype: "questions"
 title: "Question 037"
 ---

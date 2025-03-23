@@ -1,9 +1,8 @@
 ---
-question: "This code will launch 6 different jobs in parallel using the matrix strategy. Can you use the matrix strategy to parallelize entire workflows?"
+question: "このコードはマトリックス戦略を使用して6つの異なるジョブを並列で起動します。マトリックス戦略を使用してワークフロー全体を並列化できますか？"
 archetype: "questions"
 title: "Question 014"
 ---
-
 
 ```yaml
 jobs:
@@ -15,5 +14,5 @@ jobs:
 ```
 > https://docs.github.com/en/actions/using-workflows/reusing-workflows#using-a-matrix-strategy-with-a-reusable-workflow
 
-1. [ ] No
-1. [x] Yes
+1. [ ] いいえ
+1. [x] はい

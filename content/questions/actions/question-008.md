@@ -1,5 +1,5 @@
 ---
-question: "Which event is triggered by a webhook action from outside of the repository?"
+question: "リポジトリ外部からのWebhookアクションによってトリガーされるイベントはどれですか？"
 archetype: "questions"
 title: "Question 008"
 ---

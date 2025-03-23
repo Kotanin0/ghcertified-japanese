@@ -1,12 +1,12 @@
 ---
 archetype: "questions"
 title: "Question 077"
-question: "What is a self-hosted runner?"
+question: "セルフホストランナーとは何ですか？"
 ---
 
 
 > https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners 
-1. [x] A self-hosted runner is a system that you deploy and manage to execute jobs from GitHub Actions on GitHub.com
-1. [ ] A self-hosted runner is a system to upload code to a private server
-1. [ ] A self-hosted runner is a system to be able to create workloads automatically
-1. [ ] A self-hosted runner is a system to manage pull requests from users of the organization
+1. [x] セルフホストランナーは、GitHub Actions のジョブを GitHub.com 上で実行するためにデプロイおよび管理するシステムです
+1. [ ] セルフホストランナーは、コードをプライベートサーバーにアップロードするためのシステムです
+1. [ ] セルフホストランナーは、ワークロードを自動的に作成できるシステムです
+1. [ ] セルフホストランナーは、組織のユーザーからのプルリクエストを管理するためのシステムです

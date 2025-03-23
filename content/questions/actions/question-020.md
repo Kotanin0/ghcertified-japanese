@@ -1,5 +1,5 @@
 ---
-question: "Which event allows you to manually trigger a workflow from the GitHub UI?"
+question: "GitHub UIから手動でワークフローをトリガーすることを可能にするイベントはどれですか？"
 archetype: "questions"
 title: "Question 020"
 ---

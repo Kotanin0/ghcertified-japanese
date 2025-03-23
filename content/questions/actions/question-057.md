@@ -1,11 +1,11 @@
 ---
-question: "Which is true about environments?"
+question: "環境について正しいのはどれですか？"
 archetype: "questions"
 title: "Question 057"
 ---
 
-> Each job in a workflow can reference a single environment.
-1. [x] Each job in a workflow can reference a single environment.
-1. [ ] Each workflow can reference a single environment.
-1. [ ] Each job in a workflow can reference a maximum of two environments.
-1. [ ] Each workflow can reference a maximum of two environments.
+> 各ワークフロー内のジョブは単一の環境を参照できます。
+1. [x] 各ワークフロー内のジョブは単一の環境を参照できます。
+1. [ ] 各ワークフローは単一の環境を参照できます。
+1. [ ] 各ワークフロー内のジョブは最大 2 つの環境を参照できます。
+1. [ ] 各ワークフローは最大 2 つの環境を参照できます。

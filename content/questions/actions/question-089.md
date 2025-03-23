@@ -1,7 +1,7 @@
 ---
 archetype: "questions"
 title: "Question 089"
-question: "Which of the following can be used to limit the number of concurrent jobs running in a GitHub Actions workflow?"
+question: "GitHub Actions ワークフローで実行中のジョブの同時実行数を制限するには、次のどれを使用しますか？"
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-question: "Which is a correct way to print a debug message?"
+question: "デバッグメッセージを出力する正しい方法はどれですか？"
 archetype: "questions"
 title: "Question 063"
 ---

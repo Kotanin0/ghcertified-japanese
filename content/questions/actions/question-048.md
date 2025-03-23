@@ -1,13 +1,12 @@
 ---
-question: "A job called `job2` is using artifacts created in `job1`. Therefore it's important to make sure `job1` finishes before `job2` starts looking for the artifacts. How should you create that dependency?"
+question: "`job2` というジョブが `job1` で作成されたアーティファクトを使用しています。そのため、`job2` がアーティファクトを探し始める前に `job1` が終了することを確認する必要があります。この依存関係をどのように作成しますか？"
 archetype: "questions"
 title: "Question 048"
 ---
 
-
 > https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idneeds
 
-1. [x] create this dependency using the `needs` keyword in `job2`
-1. [ ] this dependency is created implicitly when using `actions/download-artifact` to download artifact from `job1`
-1. [ ] create this dependency by defining `job2` after `job1` in the workflow's `.yaml` definition
-1. [ ] create this dependency using the `concurrency` keyword in `job2`
+1. [x] `job2` で `needs` キーワードを使用してこの依存関係を作成する
+1. [ ] `actions/download-artifact` を使用して `job1` からアーティファクトをダウンロードする際に、この依存関係が暗黙的に作成される
+1. [ ] ワークフローの `.yaml` 定義で `job1` の後に `job2` を定義することで、この依存関係を作成する
+1. [ ] `job2` で `concurrency` キーワードを使用してこの依存関係を作成する

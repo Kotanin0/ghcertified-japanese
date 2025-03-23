@@ -1,5 +1,5 @@
 ---
-question: "Select the default environment variable that contains the operating system of the runner executing the job"
+question: "ジョブを実行しているランナーのオペレーティングシステムを含むデフォルト環境変数を選択してください。"
 archetype: "questions"
 title: "Question 096"
 ---

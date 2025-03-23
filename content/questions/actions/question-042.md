@@ -1,5 +1,5 @@
 ---
-question: "When should you use `artifacts`? (Select two.)"
+question: "`artifacts` を使用するのはどのような場合ですか？（2つ選択してください）"
 archetype: "questions"
 title: "Question 042"
 ---
@@ -8,9 +8,9 @@ title: "Question 042"
 
 > https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#about-workflow-artifacts
 
-- [x] Use artifacts to save files produced by a job to view after a workflow run has ended, such as test results or build logs.
-- [x] Use artifacts to save binaries produced by a build job to use in a subsequent deploy job to deploy a new version of an application
-- [ ] Use artifacts to reuse files that don't change often between jobs or workflow runs, such as build dependencies from a package management system.
-> Caching should be used for that https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching
-- [ ] Use artifacts to create new versions of your application together with release notes, mentions and/or contributors
-> That's a use case for releases, not artifacts
+- [x] ワークフロー実行が終了した後に表示するために、ジョブで生成されたファイル（テスト結果やビルドログなど）を保存するためにアーティファクトを使用します。
+- [x] ビルドジョブで生成されたバイナリを保存し、新しいバージョンのアプリケーションをデプロイするための後続のデプロイジョブで使用するためにアーティファクトを使用します。
+- [ ] ジョブやワークフロー実行間であまり変更されないファイル（パッケージ管理システムのビルド依存関係など）を再利用するためにアーティファクトを使用します。
+> キャッシュを使用するべきです https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching
+- [ ] アーティファクトを使用して、リリースノート、メンション、および/またはコントリビューターとともにアプリケーションの新しいバージョンを作成します。
+> それはリリースのユースケースです、アーティファクトではありません

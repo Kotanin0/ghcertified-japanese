@@ -1,12 +1,12 @@
 ---
 archetype: "questions"
 title: "Question 081"
-question: "How can you reuse a defined workflow in multiple repositories? (Choose two.)"
+question: "複数のリポジトリで定義済みのワークフローを再利用するにはどうすればよいですか？（2つ選択してください）"
 ---
 
 
 > https://docs.github.com/en/actions/using-workflows/creating-starter-workflows-for-your-organization
-- [ ] By copying the workflow file to each repository
-- [x] By using workflow templates
-- [ ] By creating a reusable action
-- [x] By defining the workflow in a central repository
+- [ ] ワークフロー ファイルを各リポジトリにコピーします
+- [x] ワークフロー テンプレートを使用します
+- [ ] 再利用可能なアクションを作成します
+- [x] ワークフローを中央リポジトリに定義します

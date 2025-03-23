@@ -1,5 +1,5 @@
 ---
-question: "How can you access the current values of variables in a matrix within a job in the example below:"
+question: "以下の例で、ジョブ内のマトリックス変数の現在の値にアクセスするにはどうすればよいですか？"
 archetype: "questions"
 title: "Question 114"
 ---
@@ -13,7 +13,7 @@ jobs:
                 os: [ubuntu-latest, windows-latest]
 ```
 > https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs#using-a-matrix-strategy
-1. [x] reference variables through the `matrix` context with syntax like`matrix.version` and `matrix.os`
-1. [ ] by using the `matrix.property` syntax
-1. [ ] by using the `context` keyword within the job configuration
-1. [ ] by accessing the variables directly with the syntax `version` and `os`
+1. [x] `matrix`コンテキストを使用して、`matrix.version`や`matrix.os`のような構文で変数を参照する
+1. [ ] `matrix.property`構文を使用する
+1. [ ] ジョブ構成内で`context`キーワードを使用する
+1. [ ] `version`や`os`のような構文で変数に直接アクセスする

@@ -1,5 +1,5 @@
 ---
-question: "Which configuration is appropriate for triggering a workflow to run on webhook events related to check_run actions?"
+question: "check_run アクションに関連する Webhook イベントでワークフローをトリガーするための適切な設定はどれですか？"
 archetype: "questions"
 title: "Question 108"
 ---

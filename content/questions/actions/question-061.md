@@ -1,9 +1,8 @@
 ---
-question: "Which of the following are default environment variables in GitHub Actions? (Select three.)"
+question: "次のうち、GitHub Actions のデフォルト環境変数はどれですか？（3 つ選択してください。）"
 archetype: "questions"
 title: "Question 061"
 ---
-
 
 > https://docs.github.com/en/actions/reference/environment-variables#default-environment-variables
 

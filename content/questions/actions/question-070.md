@@ -1,5 +1,5 @@
 ---
-question: "How can you use the GitHub API to create or update a repository secret?"
+question: "GitHub API を使用してリポジトリシークレットを作成または更新するにはどうすればよいですか？"
 archetype: "questions"
 title: "Question 070"
 ---
