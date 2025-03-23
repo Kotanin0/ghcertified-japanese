@@ -1,11 +1,11 @@
 ---
-question: "What's the purpose of SCIM and team synchronization in GitHub?"
+question: "GitHubにおけるSCIMとチーム同期の目的は何ですか？"
 archetype: "questions"
 title: "Question 023"
 ---
 
 > https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/managing-team-synchronization-for-your-organization
-1. [x] Team synchronization connects GitHub teams with IdP groups for membership management, relying on SAML single sign-on, whereas SCIM automates identity provisioning and management across systems, including creating and updating user identities and access.
-1. [ ] Team synchronization is an automated process that allows users to manage their public profiles and repositories through a GitHub-specific interface.
-1. [ ] Team synchronization is used for internal data security and user information management, while SCIM is an interface for user profile and repository customization.
-1. [ ] Both team synchronization and SCIM in GitHub are used for user provisioning services, inviting non-members to join organizations and managing public profiles and repositories.
+1. [x] チーム同期は、GitHubチームとIdPグループを接続してメンバーシップを管理するもので、SAMLシングルサインオンに依存しています。一方、SCIMはシステム間でのアイデンティティのプロビジョニングと管理を自動化し、ユーザーアイデンティティやアクセスの作成と更新を含みます。
+1. [ ] チーム同期は、ユーザーがGitHub専用のインターフェースを通じて公開プロファイルやリポジトリを管理できるようにする自動化プロセスです。
+1. [ ] チーム同期は内部データのセキュリティとユーザー情報管理に使用され、SCIMはユーザープロファイルやリポジトリのカスタマイズ用インターフェースです。
+1. [ ] GitHubにおけるチーム同期とSCIMはどちらもユーザープロビジョニングサービスに使用され、非メンバーを組織に招待し、公開プロファイルやリポジトリを管理します。

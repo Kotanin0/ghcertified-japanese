@@ -1,14 +1,14 @@
 ---
 archetype: "questions"
-title: "Question 111"
-question: "You need GitHub Actions enabled for"
+title: "質問 111"
+question: "GitHub Actions を有効にする必要があるのはどれですか？"
 ---
 
 > https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates#about-dependabot-version-updates
-1. [x] Dependency Review
-1. [ ] Dependabot Security Updates
-1. [ ] Dependabot Version Updates
-1. [ ] All of these
-> GitHub Actions is not required for Dependabot version updates and Dependabot security updates to run on GitHub. However, pull requests opened by Dependabot can trigger workflows that run actions.
-1. [ ] None of these
-> Dependency review uses `actions/dependency-review-action` GitHub Action
+1. [x] Dependency Review（依存関係レビュー）
+1. [ ] Dependabot Security Updates（Dependabot セキュリティ更新）
+1. [ ] Dependabot Version Updates（Dependabot バージョン更新）
+1. [ ] これらすべて
+> GitHub Actions は Dependabot バージョン更新やセキュリティ更新の実行には必要ありません。ただし、Dependabot によって開かれたプルリクエストは、アクションを実行するワークフローをトリガーする可能性があります。
+1. [ ] これらのいずれでもない
+> Dependency Review は `actions/dependency-review-action` GitHub Action を使用します。

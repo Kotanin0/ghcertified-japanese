@@ -1,11 +1,11 @@
 ---
-question: "How can GitHub Apps react to specific events, and what are some examples of these events?"
+question: "GitHubアプリは特定のイベントにどのように反応し、これらのイベントの例は何ですか？"
 archetype: "questions"
 title: "Question 077"
 ---
 
 > https://docs.github.com/en/apps/creating-github-apps/registering-a-github-app/using-webhooks-with-github-apps#subscribing-to-webhook-events
-1. [x] GitHub Apps subscribe to events through webhooks, which notify the app of specific actions like pull request openings or issue creations.
-1. [ ] GitHub Apps can subscribe to events like push, pull request, and issue events through the app's configuration.
-1. [ ] GitHub Apps work on webhooks - receiving all events from GitHub. If the GitHub App should react only on specific event, that filtering is done within the GitHub App code
-1. [ ] GitHub Apps use a websocket connection that notifies the GitHub app of all `push` and `pull_request` events
+1. [x] GitHubアプリはWebhookを通じてイベントを購読し、プルリクエストの作成や課題の作成などの特定のアクションをアプリに通知します。
+1. [ ] GitHubアプリは、プッシュ、プルリクエスト、課題イベントなどのイベントをアプリの設定を通じて購読できます。
+1. [ ] GitHubアプリはWebhookを使用してGitHubからすべてのイベントを受信します。特定のイベントにのみ反応する場合、そのフィルタリングはGitHubアプリのコード内で行われます。
+1. [ ] GitHubアプリはWebSocket接続を使用して、すべての`push`および`pull_request`イベントをGitHubアプリに通知します。

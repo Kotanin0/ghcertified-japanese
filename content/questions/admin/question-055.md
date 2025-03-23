@@ -1,11 +1,11 @@
 ---
-question: "What distinguishes a visible team from a secret team in a GitHub organization?"
+question: "GitHub組織において、可視チームと秘密チームの違いは何ですか？"
 archetype: "questions"
 title: "Question 055"
 ---
 
 > https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams
-1. [x] Visible teams can be viewed and mentioned by any organization member, whereas secret teams are only visible to team members and organization owners, enhancing privacy for sensitive collaborations.
-1. [ ] Visible teams have access to all repositories by default, while secret teams do not have any repository access until explicitly granted.
-1. [ ] Secret teams can manage organization settings, unlike visible teams which can only manage repository settings.
-1. [ ] There is no functional difference; the terms simply reflect the team's preference for communication.
+1. [x] 可視チームはすべての組織メンバーが閲覧およびメンションできるのに対し、秘密チームはチームメンバーと組織所有者のみが閲覧でき、機密性の高いコラボレーションのプライバシーを強化する。
+1. [ ] 可視チームはデフォルトで全リポジトリにアクセスできるが、秘密チームは明示的に付与されるまでリポジトリにアクセスできない。
+1. [ ] 秘密チームは組織設定を管理できるが、可視チームはリポジトリ設定のみを管理できる。
+1. [ ] 機能的な違いはなく、単にチームのコミュニケーションの好みを反映している。

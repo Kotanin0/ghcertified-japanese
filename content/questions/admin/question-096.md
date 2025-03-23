@@ -1,5 +1,5 @@
 ---
-question: "By which header can you check the number of requests you have made in the current rate limit window when using the GitHub REST API?"
+question: "GitHub REST APIを使用する際、現在のレート制限ウィンドウで行ったリクエスト数を確認できるヘッダーはどれですか？"
 archetype: "questions"
 title: "Question 096"
 ---

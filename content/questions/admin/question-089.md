@@ -1,11 +1,11 @@
 ---
-question: "What steps are involved in creating a self-hosted runner group for an organization on GitHub?"
+question: "GitHubで組織用のセルフホストランナーグループを作成するには、どの手順が必要ですか？"
 archetype: "questions"
 title: "Question 089"
 ---
 
 > https://docs.github.com/en/actions/hosting-your-own-runners/managing-access-to-self-hosted-runners-using-groups
-1. [x] Navigate to organization settings, select Actions, click Runner groups, create a new group, and assign a repository access policy.
-1. [ ] In the `.github` repository modify the `.gitconfig` file to specify runner groups and associated access policies.
-1. [ ] Contact GitHub support to request the creation of a runner group and provide a list of repositories for access configuration.
-1. [ ] Use a GitHub Actions workflow to automatically generate runner groups based on repository activity and usage patterns.
+1. [x] 組織設定に移動し、[Actions] を選択、[Runner groups] をクリック、新しいグループを作成し、リポジトリのアクセスポリシーを割り当てる。
+1. [ ] `.github` リポジトリ内で `.gitconfig` ファイルを変更し、ランナーグループと関連するアクセスポリシーを指定する。
+1. [ ] GitHubサポートに連絡してランナーグループの作成を依頼し、アクセス設定用のリポジトリリストを提供する。
+1. [ ] GitHub Actionsワークフローを使用して、リポジトリアクティビティと使用パターンに基づいてランナーグループを自動生成する。

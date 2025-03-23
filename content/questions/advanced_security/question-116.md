@@ -1,11 +1,11 @@
 ---
 archetype: "questions"
-title: "Question 116"
-question: "Jobs that run on macOS runners that GitHub hosts consume minutes at __ rate as Linux runners consume"
+title: "質問 116"
+question: "GitHub がホストする macOS ランナーで実行されるジョブは、Linux ランナーの消費率と比較してどのくらいの分数を消費しますか？"
 ---
 
 > https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#minute-multipliers
-1. [ ] the same
-1. [ ] 2x
-1. [ ] 5x
-1. [x] 10x
+1. [ ] 同じ
+1. [ ] 2倍
+1. [ ] 5倍
+1. [x] 10倍

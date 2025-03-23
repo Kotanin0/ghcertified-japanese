@@ -1,11 +1,11 @@
 ---
-question: "What is CodeQL?"
+question: "CodeQLとは何ですか？"
 archetype: "questions"
-title: "Question 001"
+title: "質問 001"
 ---
 
 > https://codeql.github.com/
-1. [x] A code analysis tool
-1. [ ] A programming language
-1. [ ] A text editor
-1. [ ] A version control system
+1. [x] コード解析ツール
+1. [ ] プログラミング言語
+1. [ ] テキストエディタ
+1. [ ] バージョン管理システム

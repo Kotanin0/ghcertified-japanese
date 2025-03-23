@@ -1,11 +1,11 @@
 ---
-question: "What are the steps to enable and enforce SAML SSO for a single organization?"
+question: "単一の組織に対して SAML SSO を有効化および強制する手順は何ですか？"
 archetype: "questions"
 title: "Question 013"
 ---
 
 > https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/enabling-and-testing-saml-single-sign-on-for-your-organization#enabling-and-testing-saml-single-sign-on-for-your-organization
-1. [x] Navigate to `Your organizations`, choose `Settings`, click on `Authentication security`, select `Enable SAML authentication`, configure IdP settings, test SAML configuration, and enforce SAML SSO.
-1. [ ] Go to `Organization Settings`, select `Security`, choose `SAML Authentication`, enter IdP information, perform a test of the SAML configuration, and enforce SAML SSO.
-1. [ ] In the main menu, select `Organization`, then `Security Settings`, enable `SAML SSO`, fill in the IdP details, test the SSO configuration, and then enforce SAML SSO.
-1. [ ] Access `Organization Settings`, click `Security`, enable `SAML SSO`, add IdP URL, test the configuration, and opt to enforce SAML SSO upon successful testing.
+1. [x] 「組織」を選択し、「設定」に移動し、「認証セキュリティ」をクリックし、「SAML 認証を有効にする」を選択し、IdP 設定を構成し、SAML 設定をテストし、SAML SSO を強制します。
+1. [ ] 「組織設定」に移動し、「セキュリティ」を選択し、「SAML 認証」を選び、IdP 情報を入力し、SAML 設定をテストし、SAML SSO を強制します。
+1. [ ] メインメニューで「組織」を選択し、「セキュリティ設定」に移動し、「SAML SSO」を有効にし、IdP 詳細を入力し、SSO 設定をテストし、その後 SAML SSO を強制します。
+1. [ ] 「組織設定」にアクセスし、「セキュリティ」をクリックし、「SAML SSO」を有効にし、IdP URL を追加し、設定をテストし、テストが成功した場合に SAML SSO を強制するオプションを選択します。

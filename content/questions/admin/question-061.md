@@ -1,5 +1,5 @@
 ---
-question: "Which repository role in a GitHub organization is recommended for contributors who need to proactively manage issues and pull requests without having write access?"
+question: "GitHub組織内で、書き込み権限を持たずに積極的に課題やプルリクエストを管理する必要がある貢献者に推奨されるリポジトリの役割はどれですか？"
 archetype: "questions"
 title: "Question 061"
 ---

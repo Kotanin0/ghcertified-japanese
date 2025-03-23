@@ -1,5 +1,5 @@
 ---
-question: "What are the repository roles available in a GitHub organization? (Choose five.)"
+question: "GitHub組織で利用可能なリポジトリの役割はどれですか？（5つ選択してください）"
 archetype: "questions"
 title: "Question 062"
 ---

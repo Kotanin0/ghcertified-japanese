@@ -1,15 +1,15 @@
 ---
-question: "Which endpoints does the GitHub API provide to administer your enterprise? (Choose six.)"
+question: "GitHub API はエンタープライズを管理するためにどのエンドポイントを提供しますか？（6 つ選択してください）"
 archetype: "questions"
-title: "Question 007"
+title: "質問 007"
 ---
 
 > https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin
-- [x] Admin stats
-- [x] Audit log
-- [x] Billing
-- [x] Code security and analysis
-- [x] License
+- [x] 管理統計
+- [x] 監査ログ
+- [x] 請求
+- [x] コードセキュリティと分析
+- [x] ライセンス
 - [x] SCIM
 - [ ] Marketplace
-- [ ] Projects
+- [ ] プロジェクト

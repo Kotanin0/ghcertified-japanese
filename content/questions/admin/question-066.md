@@ -1,11 +1,11 @@
 ---
-question: "Why might webhooks be considered an efficient alternative to the audit log or API polling in certain use cases within GitHub organizations?"
+question: "GitHub組織内の特定のユースケースで、Webhookが監査ログやAPIポーリングの効率的な代替手段と見なされる理由は何ですか？"
 archetype: "questions"
 title: "Question 066"
 ---
 
 > https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization
-1. [x] Webhooks provide real-time notifications to your server when specific events occur, which can be more efficient than searching the audit log or polling the API for those events.
-1. [ ] Webhooks allow organization admins to manually review and approve each event before it is logged.
-1. [ ] They provide a more detailed and comprehensive log of events than the audit log.
-1. [ ] Webhooks are the only method to receive notifications about private repository actions.
+1. [x] Webhookは特定のイベントが発生したときにサーバーにリアルタイム通知を提供し、監査ログを検索したりAPIをポーリングしたりするより効率的です。
+1. [ ] Webhookは、組織管理者が各イベントを手動で確認および承認することを可能にします。
+1. [ ] 監査ログよりも詳細で包括的なイベントログを提供します。
+1. [ ] Webhookはプライベートリポジトリのアクションに関する通知を受け取る唯一の方法です。
